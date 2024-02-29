@@ -15,22 +15,17 @@ Ensure you have Node.js installed on your machine before proceeding with the ins
    mkdir my-threejs-project
    cd my-threejs-project
    ```
-2. **Navigate to Project Directory:**:
-
-   ```cd your-repository
-
+2. **Navigate to Project Directory**:
+   ```bash
+   cd your-repository
    ```
-
-3. **Install Dependencies:**:
-
-   ```npm install
-
+3. **Install Dependencies**:
+   ```bash
+   npm install
    ```
-
-4. **Start Development Server:**:
-
-   ```npm run dev
-
+4. **Start Development Server**:
+   ```bash
+   npm run dev
    ```
 
 # Three.js Template with Orbit Controls and Debug GUI
@@ -94,3 +89,7 @@ This Three.js template includes Orbit Controls for interactive camera movement a
 - Uses a clock to track elapsed time for animations.
 - Updates object rotation based on elapsed time.
 - Renders the scene using the renderer and camera settings in an animation loop using requestAnimationFrame.
+
+```
+
+```
